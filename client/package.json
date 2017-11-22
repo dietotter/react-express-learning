@@ -1,5 +1,5 @@
 {
-  "name": "react-express-learning",
+  "name": "react-express-ed-client",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -21,7 +21,7 @@
     "webpack-dev-server": "^2.9.4"
   },
   "scripts": {
-    "dev": "webpack-dev-server --content-base client/www --inline --hot",
+    "dev": "webpack-dev-server --content-base www --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nik",
