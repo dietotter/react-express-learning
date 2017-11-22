@@ -9,9 +9,9 @@ app.use(morgan('combined')) // use log generator called 'morgan'. 'Combined' mak
 app.use(bodyParser.json()) // allow our express app to easily parse any JSON request, that comes in
 app.use(cors()) // allow any host or client to access this (? learn more ?)
 
-app.get('/status', (req, res) => {
+app.post('/register', (req, res) => {
     res.send({
-        message: 'Hello, guys =)'
+        message: `Hello, ${req.body.email}! Your user was registered!`
     })
 })
 
