@@ -44,6 +44,7 @@ export default class Register extends React.Component{
 
 // ANOTHER VARIANT TO GET INPUT VALUES ON BUTTON CLICK (no need in value={...}, onChange() and state):
 // (THIS IS CALLED UNCONTROLLED ELEMENTS. WHAT I AM USING WITH STATE AND onChange IS CALLED CONTROLLED ELEMENTS)
+// (UNCONTROLLED ELEMENTS DATA IS HANDLED BY THE DOM ITSELF, CONTROLLED COMPONENT - BY REACT)
 // 1) to <input type="email" ... ref={(em) => this.em = em} />
 // 2) to <input type="password" ... ref={(pwd) => this.pwd = pwd} />
 // 3)
